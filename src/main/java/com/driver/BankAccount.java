@@ -6,6 +6,22 @@ public class BankAccount {
     private double balance;
     private double minBalance;
 
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public double getMinBalance() {
+        return minBalance;
+    }
+
+    public void setMinBalance(double minBalance) {
+        this.minBalance = minBalance;
+    }
+
     public BankAccount(String name, double balance, double minBalance) {
         this.name=name;
         this.balance=balance;
